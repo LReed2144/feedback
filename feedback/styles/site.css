@@ -1,0 +1,57 @@
+
+body {
+    background-color: lightblue;
+    font-family: Helvetica, Georgia, 'Times New Roman', Times, serif; 
+    font-size: larger;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1em;
+}
+
+.textbox {
+    height: 30px;
+    width: 150px;
+    font-size: 1rem;
+}
+
+.emailtextbox {
+    height: 30px;
+    width: 250px;
+    font-size: 1rem;
+}
+
+.textboxarea {
+    font-family: Helvetica; 
+    font-size: 1rem;
+}
+
+.button 
+    {
+        background-color: #f5f5dc;
+        border: none;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        padding: 12px 28px;
+
+}
+
+textarea {
+    display: block;
+    margin: 1rem 0;
+  }
+
+
+  hr {
+    border-bottom: 2px solid rgb(10, 10, 10);
+}
+footer {
+    margin-top: 1.5rem;
+    border-top: 1px solid rgb(10, 10, 10);
+    padding: 0.5rem;
+    font-size: 1rem;
+}

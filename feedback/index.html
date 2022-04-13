@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="styles/site.css">
+        <title>Feedback Form</title>
+    </head>
+    <main>
+    <form action="https://cs12.net/form/submit.php" method="post"> 
+        <div>
+            <h1>Feedback Form</h1>
+            <hr>
+            <!-- <fieldset> -->
+                <!-- <legend>Name:</legend> -->
+                <label>Name 
+                    <br>
+                    <input type= "text" name= "name" class="textbox" /></label>
+            <!-- </fieldset> -->
+            <br>
+            <br>
+            <!-- <fieldset> -->
+                <!-- <legend>Email:</legend> -->
+                <label>Email 
+                    <br>
+                    <input type= "email" name="email_address"     class="emailtextbox"/>
+                    <input type="hidden" name="__mailto" value="lyr126@g.harvard.edu" />
+                    <input type="hidden" name="__mailkey"
+                    value="cscie12-spring-2022-lyr126" />
+                </label>
+            <!-- </fieldset> -->
+            <br>
+            <br>
+            <!-- <fieldset> -->
+                <!-- <legend>Feedback:</legend> -->
+                <label>Feedback
+                    <textarea name="comments" class="textboxarea" rows="10" cols="50"></textarea>
+                </label>
+            <!-- </fieldset> -->
+            <br>
+            <br>
+            <label>
+                <button type="submit" class="button">Submit Feedback</button>
+            </label>
+        </div>
+    </form>
+    </main>
+    <footer>
+        <p>Feedback Form is part of assignment for CSCI E-12</p>
+    </footer>
+</html>
+
